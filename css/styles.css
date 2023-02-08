@@ -145,7 +145,13 @@ header {
     padding-top: 188px;
     padding-bottom: 188px;
     text-align: center;
-    ;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero/people-office.png);
+    max-width: 1440px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-size: cover;
 }
 
 .hero-title {
@@ -219,10 +225,20 @@ header {
     flex-basis: calc((100% - 3 * 24px)/4);
 }
 
+.svg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 8px;
+    height: 112px;
+    border-radius: 4px;
+    background-color: var(--footerlogo-bcg-color);
+}
 
 .specializ {
     padding-top: 0;
 }
+
 
 
 
@@ -245,6 +261,69 @@ header {
     text-align: center;
 }
 
+.team-contacts {
+    width: 40px;
+    height: 40px;
+    padding-left: 0;
+
+}
+
+.team-contacts-list {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    padding-top: 8px;
+}
+
+.team-contacts-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: var(--logo-btn-color);
+    border-radius: 50%;
+    fill: var(--white-color);
+}
+
+.team-contacts-link:hover,
+.team-contacts-link:focus {
+    background-color: var(--hover-focus-color);
+}
+
+/* customers */
+.customers-list {
+    display: flex;
+}
+
+.customers-items {
+    flex-basis: calc((100% - 24px) / 5);
+}
+
+.customers-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #8E8F99;
+    border-radius: 4px;
+    width: 168px;
+    height: 88px;
+}
+
+.customers-link:hover,
+.customers-link:focus {
+    border: 2px solid var(--hover-focus-color);
+}
+
+.customers-svg {
+    fill: #8E8F99;
+}
+
+.customers-svg:hover,
+.customers-svg:focus {
+
+    fill: var(--hover-focus-color);
+}
 
 /* footer */
 
@@ -267,6 +346,48 @@ header {
 .footer-logo {
     color: var(--footerlogo-bcg-color);
 }
+
+.footer-cont {
+    display: flex;
+    gap: 120px;
+}
+
+.foot-soc {
+    width: 40px;
+    height: 40px;
+}
+
+.social-list {
+    display: flex;
+    gap: 16px;
+    float: left;
+    justify-content: center;
+}
+
+.soc-text {
+    color: var(--white-color);
+    margin-bottom: 16px;
+    font-weight: 500;
+    line-height: calc(24/16);
+}
+
+.foot-soc:last-child {
+    margin-right: 0;
+}
+
+.social-link {
+    display: flex;
+    fill: var(--white-color);
+    background-color: var(--link-color);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
 
 /* portfolio*/
 
