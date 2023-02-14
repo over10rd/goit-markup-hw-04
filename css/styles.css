@@ -177,6 +177,7 @@ header {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     padding: 16px 32px;
+    border: none;
 }
 
 .hero-btn:hover,
@@ -441,6 +442,12 @@ header {
 .img-link {
     display: block;
     text-decoration: none;
+    color: var(--main-text-color);
+}
+
+.img-link:hover,
+.img-link:focus {
+    color: var(--hover-focus-color);
 }
 
 .img-link:hover {
