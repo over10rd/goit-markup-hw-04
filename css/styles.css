@@ -75,9 +75,13 @@ header {
 }
 
 .header-div {
-    display: flex;
+
     padding-top: 24px;
     padding-bottom: 24px;
+}
+
+.header-container {
+    display: flex;
 }
 
 
@@ -93,7 +97,6 @@ header {
     letter-spacing: 0.02em;
     color: var(--main-text-color);
     display: flex;
-
 }
 
 .menu-link {
@@ -109,6 +112,10 @@ header {
 
 .menu-items {
     margin-right: 40px;
+}
+
+.menu-items:last-child {
+    margin-right: 0;
 }
 
 .contact {
@@ -136,6 +143,10 @@ header {
 
 .contact-items {
     margin-right: 40px;
+}
+
+.contact-items:last-child {
+    margin-right: 0;
 }
 
 /* hero */
